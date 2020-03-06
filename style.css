@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* by d3pii 05.02.2020 23-52 */
+body{
+    background-color: #424242;
+    font-family: 'Inconsolata', monospace;
+}
+canvas{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.hi{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Message{
+    color: #f7f7f7;
+    font-size: 30px;
+    background-color: #525252;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    word-break: break-all;
+    display: none;
+}
+h1{
+    color: #fff;
+    
+}
+input{
+    margin-left: 10em;
+}
+#start{
+    position: absolute;
+    top: 63px;
+    left: 23px;
+    padding: 10px 29px;
+    background: #f7f7f7;
+    color: rgb(53, 53, 53);
+    border-radius: 5px;
+    border: 2px solid #3bcfbc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+#restart{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#start:hover{
+    background: #6cffb5;
+}
+
